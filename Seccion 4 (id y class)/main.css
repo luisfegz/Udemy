@@ -1,0 +1,14 @@
+body {
+    background-color: #fff;
+}
+/* CONCEPTO : ID selector # (consiste en aplicar propiedades con id especifico)      */
+#parrafo {
+    color: blue;
+}
+
+/* CONCEPTO : CLASS selector . (consiste en aplicar prioridades con class especiico) */
+
+.etiqueta {
+    color:blueviolet;
+
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Formulario</title>
+	</head>
+	<body>
+	<!-- ETIQUETAS FORMS : Te permite pedirle informacion al usuario (EJEMPLO 1 + INPUT)                            -->
+		<form>
+
+            <!-- ETIQUETA : fieldset (Agrupo todo lo que este contenido y lo pone en un rectangulo)                 -->
+            <fieldset>
+
+                <!-- ETIQUETA : legend (Hace juego con "fieldset" en el sentido de que dota de un nombre a la caja) -->
+                <legend>Datos personales</legend>
+                <!-- ETQUETA : label (Permite asignar como la personalidad en negrilla)                             -->
+                <label>Edad</label>
+
+                <!-- ETIQUETA : input (Pide al usuario en pantalla)    
+                                (*) placeholder : LETRAS GRISES INDICATIVAS                                         -->
+                <input type="number" placeholder="Edad">
+                <br />
+
+                <label>Nombre</label>
+                <input type="text">
+                <br />
+                <label>password</label>
+                <input type="password">
+                <br />
+
+                <!-- ETIQUETA : input-type.submit (dota caracteristicas de un boton de "enviar")                    -->
+                <input type="submit" value="Aceptar"/>
+
+                <!-- ETIQUETA : textarea (Un bloque de input de texto)                                              -->
+                <textarea></textarea>  
+                <button>Aceptar</button>
+                
+                <!-- ETIQUETA : select (barra de opciones)                                                          -->
+                <select>
+                    <option value="goku">Cali</option>
+                    <option value="vegeta">Girardot</option>
+                    <option value="sayayin">Neiva</option>
+                    <option>Bogota</option>
+                </select>
+            </fieldset>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    background-color: #eee;
+}
+#over {
+    width: 100px;
+    height: 100px;
+    /* Overflow scroll/auto para bajar y subir; Algunas de estas caracteristicas 
+    se activan dependiendo el width y el height: scroll*/
+    overflow: scroll;
+}

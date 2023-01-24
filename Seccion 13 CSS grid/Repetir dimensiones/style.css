@@ -1,0 +1,14 @@
+body {
+    background-color: #eee;
+}
+.grid {
+    display: grid;
+    /* En el primer valor del repeat indicar (#Rows, fracciones (1 fr)) */
+    grid-template-rows: repeat(2, 50px);
+    /* En el primer valor del repeat indicar 
+    grid-tempñate-columns #px de la primer columna(#Columns, fracciones -> 1 fr) #px de la ultima columna */
+    grid-template-columns: 30px repeat(3, 1fr) 15px;
+}
+.element {
+    background-color: red;
+}

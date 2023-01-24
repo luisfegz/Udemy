@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+p {
+    color: blue;
+/* Propiedad de alinear esta por defecto a la izquierda */
+    text-align: left;
+/* Propiedad para pasar una linea intermedia eb */
+    text-decoration:line-through;
+    text-decoration: none;
+/* Propiedad de identar */
+    text-indent: 30px;
+/* Propiedad que permite dejar espacios entre cada linea de texto (1.5 - 1.7)*/
+    line-height: 1.5;
+/* Propiedad que permite ( 0, 0, 0, (transparencia) )*/
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.366);
+/* Propiedad de espaciar los espacios entre cada letra*/
+    word-spacing: 4px;
+}
+a {
+/*Esta propiedad principalmente es para que no tenga subrayado el href de a*/
+    text-decoration: none;
+/*Esta propiedad pone en mayuscula el texto */
+    text-transform: uppercase;
+/*Esta propiedad pone mayuscula en la primera letra de cada palabra */
+    text-transform: capitalize;
+/* Propiedad de espaciar los espacios entre cada letra*/
+    letter-spacing: 4px;
+
+}

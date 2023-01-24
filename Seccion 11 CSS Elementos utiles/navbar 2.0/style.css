@@ -1,0 +1,42 @@
+body {
+    background-color: #eee;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+
+    /* Para ponerlo bien pegado a la izquierda*/
+    left: 0;
+    width: 100%;
+    background-color: black;
+    list-style: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    /* Importante identificar en donde poner las caracteristicas del texto si esta
+    dentro de un 'a' contenido en 'ul' */
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(48, 48, 48, 0.50);
+    color: yellow;
+}
+/* Para mostrar al usuario en que apartado de la pagina se encuentra por defecto (Guia) */
+.active {
+    background-color: rgb(67, 200, 100);
+}
+
+/* Para mostrar al usuario un mensaje que no lo vaya ocultar el 'navbar' */
+.content {
+    margin-top: 48px;
+}

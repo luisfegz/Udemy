@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+table {
+    width: 100%;
+    background-color: white;
+    /* border-collapse:
+    indicara que accion requerimos para los bordes entre las columnas*/
+    border-collapse: collapse;
+}
+/* SELECTOR: Element:nth-child(even): 
+SELECCIONAR FILAS PAR O IMPAR CON LOS MISMOS ATRIBUTOS
+el recuento de hijos incluye hijos de cualquier tipo de elemento, 
+pero sólo se considera una coincidencia si el elemento en esa 
+posición de hijo es del tipo de elemento especificado. */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+   /* padding-bottom: 6px;
+    padding-top: 6px; o solo padding contrario a las manesillas del reloj*/
+    padding: 6px 7.5px 6px 7.5px;
+}

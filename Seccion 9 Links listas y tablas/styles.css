@@ -1,0 +1,25 @@
+body {
+    background-color:#eee;
+}
+/* El orden de los styles es importante y puedes usar el text-decoration para darle como ese toque de userfriendly */
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+/* a:link es la forma en que se ve antes de que el usuario de click o incluso este sobre el mismo link */
+a:link {
+    color: pink;
+}
+/* a:visited es el color que le aparece al usuario tras haber visitado el link*/
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+
+}
+a:active {
+    color: black;
+}
+/* a:hoover es el cambio de color al sobreponer el click sobre el link */

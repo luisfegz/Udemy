@@ -1,0 +1,7 @@
+body {
+    /* FUNCION : background-color (Color de Fondo)       */
+    background-color: rgba(156, 102, 102, 0.572);
+    
+    /* FUNCION : color (Color de Letras)                 */
+    color:rgba(202, 24, 24, 0.572);
+}

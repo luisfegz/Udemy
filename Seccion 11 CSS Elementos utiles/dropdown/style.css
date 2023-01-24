@@ -1,0 +1,53 @@
+body {
+    background-color: #eee;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.dropdown-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    /* NUEVA PROPIEDAD CURSOR -> POINTER 
+    cuando paso por encima se cambia a la
+    manito  */
+    cursor: pointer;
+}
+/* Para editar colocamos el display en block 
+y cuando terminamos ponemos none*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* Esta propiedad da sombra al recuadro del contenido */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    /* Padding : Xpx Xpx
+    1. Vertical(top y bottom)
+    2. Horizontal(al lado izquierdo y derecho) consecutivamente.   */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #eee;
+
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #3e8e41;
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}

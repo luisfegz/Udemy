@@ -1,0 +1,7 @@
+body {
+    background-color: #eee;
+}
+.fondo {
+    /*background-image: linear-gradient(to top right,red,blue); Siempre se usan 3 regularmente*/
+    background-image: linear-gradient(-15deg, rgba(255, 0, 0, 1) 10%,tomato 20%);
+}

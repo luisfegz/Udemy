@@ -1,0 +1,29 @@
+body {
+    background-color:#eee;
+ 
+}
+/* IMPORTANTISIMO */
+/* Para seleccionar el css de un elemento que 
+esta contenido en otro es importante usar
+esta sintaxis: en este ejemplo un list item 
+dentro de un unorder list.
+primero: la etiqueta que se encuentra mas arriba (papa)
+segundo: la etiqueta consecutiva a esta (hijo) */
+
+ul li{
+    /* Para inicializar el orden de acuerdo al tipado */
+    list-style-type: lower-latin;
+}
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border:solid 1px #ddd;
+    border-radius: 4px;
+    
+}
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+    
+
+}

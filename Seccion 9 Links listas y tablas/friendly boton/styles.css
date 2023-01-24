@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+}
+/* Boton con movimiento Friendly User Interface*/
+/* Recuerda color es de la letra */
+a {
+    color: hotpink;
+    background-color: #f00;
+    border: 1px solid #d00;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 2px;
+}
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+    background-color: #f55;
+    
+}
+a:active{
+    color: black;
+}

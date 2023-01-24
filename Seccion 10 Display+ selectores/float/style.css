@@ -1,0 +1,14 @@
+body {
+    background-color: #eee;
+}
+img {
+    /*FLOAT nos perite ubicar una imagen compartidacon un texto */
+    float: right;
+}
+img:hover {
+    opacity: 0.58;
+}
+div p {
+    color: #f00;
+    opacity: 1;
+}

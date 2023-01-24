@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+    </head>
+    <body>
+        <p>Por favor sllena este formulario para ponerte en contacto con nosotros</p>
+        <!-- ETIQUETA : fieldset (Recuerda es para ubicar etiquetas dentro de un recuadro)   -->
+        <fieldset>
+            <!-- ETIQUETA : legend (Para poner el tituolo del recuadro)                      -->
+            <legend>Datos de contacto</legend>
+            <!-- Cada vez que presionemos un boton dentro de un formulario,
+                este va tratar de enviar el formulario al servidor, entonces
+                para indicarle a donde debe enviar estos datos, debemos INDICARLE
+                la ruto donde nosotros queremos que envie todo                               -->
+                <!-- ETIQUETA : form action (indica la url donde van a dirigir los datos)    -->
+                <form action="contacto.html">
+                <label>Nombre</label>
+                <input />
+                <label>Apellido</label>
+                <input />
+                <br />
+                <label>Correo</label>
+                <input type="email" />
+                <br />
+                <label>Comentarios</label>
+                <textarea></textarea>
+                <button>Aceptar</button>
+
+            </form>
+        </fieldset>
+    </body>
+
+</html>

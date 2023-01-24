@@ -1,0 +1,19 @@
+body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: 30px repeat(3, 1fr) 15px;
+    /* Espacios entre columnas y filas especificas con esta funciones
+    grid-row-gap: 20px;
+    grid-column-gap: 20px; O sino la de abajo resume: (filas culumnas px o em)
+    o un solo valor para ambos*/
+    grid-gap: 20px 10px;
+
+}
+
+.element {
+    background-color: red;
+}

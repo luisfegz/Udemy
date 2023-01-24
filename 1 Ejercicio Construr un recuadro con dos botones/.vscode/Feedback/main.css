@@ -1,0 +1,38 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+/* Observamos que damos el tamaño de pixeles en el top de la caja */
+    border-top: solid 0px;
+}
+.contenido {
+    padding: 10px;
+}
+.header {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+/* Recordemos que este footer se encuentra dentro de un div padre, 
+   por ello a la hora de poner un border-top, nos sale como si se
+   tratara de una seccion separada, en vez de usar <hr />      */
+.footer {
+    padding: 10px;
+    border-top: 1px solid rgb(61, 255, 125);
+}
+.btnPrimario {
+    background-color: #0090ff;
+    padding: 6px;
+    border: 0px;
+    color: #fff;
+}
+.btnSecundario {
+    background-color: #aaa;
+    padding: 6px;
+    border: 0px;
+    color: #fff ;
+}

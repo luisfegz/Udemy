@@ -1,0 +1,11 @@
+body{
+    width: 200px;
+
+}
+.flex {
+    display: flex;
+    /* Cambia de izquierda a derecha row-reverse 
+    flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}

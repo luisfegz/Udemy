@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tablas</title>
+    </head>
+    <body>
+        <!-- ETIQUETA : table (Definir una tabla)
+            
+            Se divide en 3 partes: 
+            1) Cabezera 
+            2) Contenido
+            3) Inferor 
+            .                                                                                -->
+        <table>
+            <!-- ETIQUETA : thead (1. Cabezera, indicar cuantas filas va tener mi cabezera,
+                para indicarle a las mismas con la etiqueta "tr" )                           -->
+            <thead>
+            <!-- ETIQUETA  : tr (Contenido de celdas con "th" <-Solo se usa en la cabecera)  -->
+                <tr>
+                    <!-- ETIQUETA : th                                                       -->
+                    <th>Mes</th>
+                    <th>Ahorros</th>
+                </tr>
+            </thead>
+            <!-- ETIQUETA : tbody                                                            -->
+            <tbody>
+                <tr>
+                    <!-- ETIQUETA : td (indicar el numero de celdas)<-tfoot & tbody          -->
+                    <td>Enero</td>
+                    <td>1000$</td>
+                </tr>
+                <tr>
+                    <td>Febrero</td>
+                    <td>500$</td>
+                </tr>
+            <!-- ETIQUETA : tfoot (Footer:: Datos de resumen)                                -->
+            <tfoot>
+                <tr>
+                    <td>Suma Total:</td>
+                    <td>1500$</td>
+
+                </tr>
+            </tfoot>
+            </tbody>
+        </table>
+    </body>
+</html>

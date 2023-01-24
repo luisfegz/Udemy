@@ -1,0 +1,12 @@
+body {
+    background-color: #eee;
+}
+/*CSS GRID: Hace que todos los elementos que se encuentren dentro de la etiqueta, 
+los despliega como si fuera una única columna*/
+.grid {
+    display: grid;
+    /*display: inline-grid; hace lo mismo pero adquiere valores del tamaños del contenido o texto*/
+}
+.element {
+    background-color: red;
+}

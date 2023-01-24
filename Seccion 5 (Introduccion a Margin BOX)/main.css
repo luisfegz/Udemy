@@ -1,0 +1,32 @@
+/* Capitulo 25 https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/learn/lecture/16021214?start=276#overview  */
+body {
+    background-color:#eee;
+}
+
+.caja {
+    /* BOX : margin area anaranjada de inspeccionar (bordea el contenido por fuera)                                                              */
+    margin: 8px;
+    /*Margin es como un borde invisible, que bordea el contenido por dentro de la caja                                                           */
+
+    /* BOX : padding area verde de inspeccionar (bordea el contenido por dentro de la caja)
+    permite tomar el contenido de la caja y ubicarlo mas hacia el centro                                                      */
+    padding: 8px;
+
+    /* BOX : border va ir entre el margin de BOX y el padding (Estilos)*/
+
+    border-style: dashed;
+    background-color: #aaf;
+    
+    /* BOX : border area anaranjada de inspeccionar (Borde de la caja, se encuentre por medio de margin y entre medio de paddong, el centro)     */
+    border-style: groove solid;
+    border-width: 8px;
+    border-left: 6px solid #eee ;
+    border-top: 6px solid rgb(33, 145, 78); 
+    border-right: 6px solid #eee ;
+    border-bottom: 6px solid rgb(33, 145, 78); ;
+    /* border-radius: Aumentar el radio de nuestro circulo en las esquinas */
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    color: #575;
+}
